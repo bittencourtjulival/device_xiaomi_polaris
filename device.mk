@@ -104,6 +104,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SecureElement
 
+# Soong
+PRODUCT_BOARD_PLATFORM := sdm845
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/xiaomi\
     vendor/nxp/opensource/pn5xx
