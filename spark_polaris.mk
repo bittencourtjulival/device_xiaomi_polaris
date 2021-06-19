@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
-#SPARK_BUILD_TYPE := OFFICIAL
+SPARK_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_polaris
