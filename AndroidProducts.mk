@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_polaris.mk
+    $(LOCAL_DIR)/aosp_polaris.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_polaris-user \
-    spark_polaris-userdebug \
-    spark_polaris-eng
+    aosp_polaris-user \
+    aosp_polaris-userdebug \
+    aosp_polaris-eng
