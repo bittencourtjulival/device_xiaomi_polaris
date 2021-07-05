@@ -7,13 +7,12 @@
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common SparkOS stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
-SPARK_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spark_polaris
+PRODUCT_NAME := aosp_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
